@@ -1,0 +1,45 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+@import "components/common.css";
+@import "media/contactus.css";
+.contact-us-container,.contact-img,.adress,.number,.mail,.time {
+  display: flex
+}
+.contact-us-container {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+.contact-img {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact-info {
+  margin-left: 60px;
+}
+.geo-img {
+  height: 270px;
+  width: 600px;
+  background-image: url("pics/map1.PNG");
+}
+.adress,.number,.mail,.time {
+  margin-bottom: 30px;
+  align-items: center;
+  color: var(--darkgreen);
+}
+.adress > svg,.number > svg,.mail > svg,.time > svg {
+  margin-right: 15px;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.main {
+  padding: 50px 30px;
+  background: beige;
+}

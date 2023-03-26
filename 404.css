@@ -1,0 +1,28 @@
+@import "components/root.css";
+@import "components/reset.css";
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--darkgreen);
+}
+.main * {
+  margin-bottom: 30px;
+}
+.main > h5 {
+  color: var(--beige);
+  font-size: 140px;
+  font-weight: 700;
+}
+.main > p {
+  color: var(--beige);
+  font-size: 64px;
+  font-weight: 500;
+}
+.btn {
+  color: var(--beige);
+  font-weight: 300;
+  font-size: 24px;
+}

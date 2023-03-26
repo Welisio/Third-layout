@@ -1,0 +1,216 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  header {
+    height: 900px !important;
+  }
+  .header-phrase-pic {
+    height: 900px !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .num,.lang {
+    display: none;
+  }
+  .num-logo-lang > svg {
+    display: block;
+  }
+  .header-nav {
+    display: none !important;
+  }
+  .page-title {
+    font-size: 55px !important;
+  }
+  .circle {
+    align-self: flex-end;
+  }
+  .header-phrase {
+    width: max-content;
+  }
+  .header-phrase > h5 {
+    font-size: 62px !important;
+  }
+  .learn-watch {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .learn-more {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px 70px;
+  }
+  .watch-video a {
+    font-size: 28px;
+  }
+  .about-us-info-pic {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-us-info-pic > img {
+    height: 300px !important;
+  }
+  .about-us-info h5 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+  .about-us-text-btns {
+    width: 300px !important;
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+  }
+  .about-us-btns {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .about-us-learn-more {
+    font-size: 18px;
+    padding: 10px 70px !important;
+    margin-bottom: 20px;
+    margin-right: 0px !important;
+  }
+  .about-us-watch-video a {
+    font-size: 28px;
+  }
+  .header-pic img {
+    height: 450px !important;
+    top: 6px !important;
+    right: -30px !important;
+  }
+  .services-text h5,.products-title-btn h5 {
+    font-size: 70px;
+  }
+  .service2,.service3,.service4,.product4,.product5,.product6,.product7,.product8,.member2,.member3 {
+    display: none;
+  }
+  .products-title-btn a {
+    display: none;
+  }
+  .products-container > a {
+    display: block;
+    text-decoration: underline;
+  }
+  .our-team-container a,.products-container a {
+    align-self: center;
+  }
+  .contact-us-container {
+    height: 700px !important;
+    padding: 0px !important;
+  }
+  .contact-us-container h5 {
+    font-size: 70px !important;
+  }
+  .contact-info {
+    margin-left: 0px !important;
+    padding: 15px;
+  }
+  .contact-img img {
+    height: 150px !important;
+  }
+  .arrows {
+    display: none;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  header {
+    height: 900px !important;
+  }
+  .num,.lang {
+    display: none;
+  }
+  .num-logo-lang > svg {
+    display: block;
+  }
+  .header-nav {
+    display: none !important;
+  }
+  .header-phrase-pic {
+    height: 900px !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .circle {
+    align-self: flex-end;
+  }
+  .header-phrase {
+    width: max-content;
+  }
+  .header-phrase > h5 {
+    font-size: 62px !important;
+  }
+  .learn-watch {
+    align-items: flex-start;
+  }
+  .learn-more {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px 70px;
+  }
+  .watch-video a {
+    font-size: 28px;
+  }
+  .about-us-info-pic {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-us-info-pic > img {
+    height: 300px !important;
+  }
+  .about-us-info h5 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+  .about-us-text-btns {
+    width: 300px !important;
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+  }
+  /* .about-us-btns {
+    flex-direction: column;
+    margin-top: 30px;
+  } */
+  .about-us-learn-more {
+    /* font-size: 18px; */
+    padding: 10px 40px !important;
+    /* margin-bottom: 20px; */
+  }
+  .about-us-watch-video a {
+    font-size: 20px;
+  }
+  .header-pic img {
+    height: 450px !important;
+    top: 6px !important;
+    right: -30px !important;
+  }
+  .services-text h5 {
+    font-size: 70px;
+  }
+  .service3,.service4 {
+    display: none;
+  }
+  .products-container > a {
+    display: block;
+    text-decoration: underline;
+  }
+  .arrows,.member2,.member3 {
+    display: none;
+  }
+  .contact-us-container {
+    height: 600px !important;
+  }
+}
+/* Desk */
+@media only screen and (min-width: 992px) {
+  .num-logo-lang > svg {
+    display: none;
+  }
+  .header-phrase-pic {
+    align-items: center;
+  }
+  .services-text {
+    width: 450px;
+  }
+  .products-container > a {
+    display: none;
+    text-decoration: underline;
+  }
+}

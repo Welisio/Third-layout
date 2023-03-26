@@ -1,0 +1,305 @@
+/* @import "components/header.css"; */
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+.header-phrase-pic,.header-pic,.circle,.header-phrase,.circle,.learn-watch,
+.about-us-info-pic,.about-us-info,.about-us-text-btns,.about-us-btns,.services,.service,.service-text,.services-btns,
+.arrows,.products-container,.products-title-btn,.product-blocks,.product-name,.our-team-container,.member-blocks,.member-block,.member-info,
+.contact-us-container,.contact-img,.adress,.mail,.time,.number,.our-team-container > a {
+  display: flex;
+}
+header,.num-logo-lang,.num,.lang,.header-nav-container,.header-nav,.page-title {
+  display: flex;
+}
+header {
+  height: 500px;
+  flex-direction: column;
+  border-radius: 0 0 50px 50px;
+  background: #00543D;
+  overflow: hidden;
+}
+.header-container {
+  background: var(--beige)
+}
+.num-logo-lang {
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 25px;
+  box-sizing: border-box;
+}
+.num > svg,.lang > svg {
+  margin-right: 10px;
+}
+.num,.logo,.lang,.nav-elem a {
+  color: #FFF1D4;
+}
+.logo {
+  font-size: 40px;
+}
+.header-nav {
+  width: 45%;
+  align-self: center;
+  justify-content: space-between;
+}
+.num-logo-lang > svg {
+  display: none;
+}
+.page-title {
+  justify-content: center;
+  font-size: 90px;
+  margin: auto;
+  color: var(--beige);
+}
+
+.num,.lang,.header-phrase a {
+  color: var(--beige);
+}
+.num,.lang {
+  align-items: center;
+}
+.lang,.arrow-left,.arrow-right,.products-title-btn a,.policies {
+  cursor: pointer;
+}
+.header-phrase-pic {
+  justify-content: space-between;
+}
+.header-phrase {
+  height: 300px;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  color: var(--beige);
+}
+.header-phrase > h5 {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.learn-watch {
+  align-items: center;
+}
+.learn-more,.about-us-learn-more {
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-right: 20px;
+}
+.learn-more {
+  background: var(--brown);
+}
+.watch-video,.about-us-watch-video,.products-title-btn a {
+  text-decoration: underline;
+}
+.circle {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  background: var(--lightgreen);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.circle2 {
+  height: 300px;
+  width: 300px;
+  background: var(--beige);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.header-pic {
+  position: relative;
+}
+.header-pic > img {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.main {
+  background: var(--beige)
+}
+.about-us-info-pic {
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+.about-us-info-pic img {
+  margin-right: 60px;
+}
+.about-us-learn-more {
+  background: var(--darkgreen);
+}
+.about-us-info {
+  flex-direction: column;
+}
+.about-us-info h5,.services-text h5 {
+  color: #CC9964;
+  font-size: 90px;
+  font-weight: 900;
+}
+.about-us-info p,.services-text p,.products-title-btn a,.products-container a,.our-team-container p {
+  display: inline-block;
+  color: var(--darkgreen);
+}
+.about-us-text-btns {
+  width: 450px;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.about-us-btns {
+  align-items: center;
+  margin-top: 30px;
+}
+/* .about-us-learn-more,.about-us-watch-video {
+  font-size: 18px;
+} */
+.about-us-learn-more {
+  width: max-content;
+}
+.about-us-learn-more a {
+  color: var(--beige);
+}
+.about-us-watch-video a {
+  color: var(--darkgreen);
+}
+.services-container {
+  padding: 50px 30px;
+}
+.services-text * {
+  margin-bottom: 30px;
+}
+.services {
+  justify-content: space-between;
+}
+.service {
+  height: 200px;
+  width: 200px;
+  align-items: flex-end;
+  background-image: url("pics/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 200px 200px;
+}
+.service-text {
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  background: #000000;
+  color: #fff;
+  opacity: 0.7;
+  padding-left: 25px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+}
+.services-btns {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.arrow-left {
+  margin-right: 10px;
+}
+.arrow-left,.arrow-right {
+  height: 35px;
+  width: 35px;
+  background: var(--darkgreen);
+  border-radius: 50%;
+}
+.products-container,.our-team-container {
+  flex-direction: column;
+  padding: 50px 30px;
+}
+.products-title-btn {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.products-title-btn h5 {
+  color: var(--brown);
+  font-size: 90px;
+  font-weight: 900;
+}
+.product-blocks {
+  flex-wrap: wrap;
+}
+.product-block {
+  width: 230px;
+  border: 2px solid var(--brown);
+  padding: 10px 15px;
+  margin: 0 0 10px 10px;
+  border-radius: 25px;
+}
+.product-block img {
+  display: block;
+  margin: 0 auto;
+}
+.product-name {
+  justify-content: center;
+  color: var(--darkgreen);
+}
+.our-team-container a {
+  color: var(--darkgreen);
+  text-decoration: underline;
+  justify-content: flex-end;
+}
+.member-blocks {
+  margin-bottom: 15px;
+}
+.member-block {
+  background: var(--darkgreen);
+  border-radius: 25px;
+}
+.member-block:not(:last-child) {
+  margin-right: 10px;
+}
+.member-block img {
+  align-self: center;
+}
+.member-info {
+  flex-direction: column;
+  padding: 50px 20px;
+}
+.member-info > h2,.member-info > p {
+  color: var(--beige);
+}
+.member-info h2 {
+  margin-bottom: 15px;
+}
+.member-info {
+  height: 200px;
+  padding: 50px 0px 0px 20px;
+}
+.contact-us-container {
+  height: 450px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+.contact-us-container h5 {
+  align-self: center;
+  color: var(--brown);
+  font-size: 90px;
+  font-weight: 900;
+}
+.contact-info {
+  margin-left: 60px;
+}
+.adress,.number,.mail,.time {
+  margin-bottom: 30px;
+  align-items: center;
+  color: var(--darkgreen);
+}
+.adress > svg,.number > svg,.mail > svg,.time > svg {
+  margin-right: 15px;
+}
+.contact-img {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.geo-img {
+  height: 270px;
+  width: 600px;
+  background-image: url("pics/map1.PNG");
+}
+/* SPACE */
+.space {
+  height: 400px;
+}
+/* SPACE */

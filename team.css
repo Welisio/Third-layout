@@ -1,0 +1,48 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+@import "components/common.css";
+.member-blocks,.member-block,.member-info {
+  display: flex;
+}
+.member-blocks {
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.main {
+  padding: 10px 30px;
+  background: beige;
+}
+.member-block {
+  width: 600px;
+  background: var(--darkgreen);
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.member-block:not(:last-child) {
+  margin-right: 25px;
+}
+.member-block img {
+  align-self: center;
+}
+.member-info {
+  flex-direction: column;
+  padding: 50px 20px;
+}
+.member-info > h2,.member-info > p {
+  color: var(--beige);
+}
+.member-info h2 {
+  margin-bottom: 15px;
+}
+.member-info {
+  height: 200px;
+  padding: 50px 0px 0px 20px;
+}

@@ -1,0 +1,78 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .who-we-are,.what-we-do {
+    flex-wrap: wrap;
+  }
+  .who-we-are > img,.what-we-do > img {
+    height: 200px !important;
+  }
+  .who-we-are-text > p,.what-we-do-text > p {
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  .what-we-do > img:first-child {
+    display: none;
+  }
+  .about-us2-mobile {
+    display: flex;
+  }
+  .right-samples {
+    display: none
+  }
+  .our-history {
+    height: 100% !important;
+  }
+  .history-samples {
+    height: 450px;
+  }
+  .sample-img-text > img {
+    height: 80px !important;
+  }
+  .right-sample-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-sample-mobile {
+    margin-left: 50px;
+    height: 150px;
+    border-left: 2px solid var(--brown);
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .who-we-are,.what-we-do {
+    flex-wrap: wrap;
+  }
+  .who-we-are > img,.what-we-do > img {
+    height: 200px !important;
+  }
+  .who-we-are-text > p,.what-we-do-text > p {
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  .what-we-do > img:first-child {
+    display: none;
+  }
+  .about-us2-mobile {
+    display: flex;
+  }
+  .right-samples {
+    display: none
+  }
+  .our-history {
+    height: 400px !important;
+  }
+  .sample-img-text > img {
+    height: 150px !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .num-logo-lang > svg {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .about-us2-mobile {
+    display: none;
+  }
+}

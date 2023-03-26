@@ -1,0 +1,26 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+@import "components/common.css";
+.policy {
+  display: flex;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.main {
+  padding: 50px 30px;
+  background: beige;
+}
+.policy {
+  justify-content: center;
+}
+.policy p {
+  color: var(--darkgreen);
+  width: 600px;
+  font-weight: 400;
+}

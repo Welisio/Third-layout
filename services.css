@@ -1,0 +1,66 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+@import "media/services.css";
+@import "components/common.css";
+
+.services,.service,.service-text{
+  display: flex;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.services {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  color: var(--beige);
+}
+.service-text {
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  background: #000000;
+  color: #fff;
+  opacity: 0.7;
+  padding-left: 25px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+}
+.service-text p {
+  display: inline-block;
+  color: var(--darkgreen);
+}
+.service {
+  height: 200px;
+  width: 200px;
+  align-items: flex-end;
+  background-image: url("pics/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-bottom: 15px;
+  background-size: 200px 200px;
+}
+.service13 {
+  background-image: url("pics/Service2.png") !important;
+}
+.service14 {
+  background-image: url("pics/Service3.png") !important;
+}
+.service15 {
+  background-image: url("pics/Service4.png") !important;
+}
+.service16 {
+  background-image: url("pics/Service7.png") !important;
+}
+.service17 {
+  background-image: url("pics/Service8.png") !important;
+}
+.main {
+  padding: 10px 30px;
+  background: beige;
+}

@@ -1,0 +1,122 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+.about-us,.who-we-are,.what-we-do,.history-samples,.left-sample,.solo-sample,.sample-img-text,.samples-top,
+.samples-bottom {
+  display: flex;
+}
+.right-sample-mobile {
+  display: none;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.about-us {
+  justify-content: center;
+  font-size: 90px;
+  margin: auto;
+  color: var(--beige);
+}
+.main {
+  padding: 10px 30px;
+  background: beige;
+}
+.main-nav {
+  margin-bottom: 50px;
+}
+.main-nav * {
+  margin-right: 15px;
+  color: var(--darkgreen)
+}
+.who-we-are,.what-we-do {
+  margin-bottom: 50px;
+}
+.who-we-are {
+  justify-content: space-between;
+  align-items: center;
+}
+.who-we-are-text > h5,.what-we-do-text > h5,.our-history > h5 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: var(--brown);
+}
+.who-we-are-text > p,.what-we-do-text > p {
+  width: 500px;
+  color: var(--darkgreen);
+}
+.what-we-do {
+  justify-content: space-between;
+}
+.history-samples {
+  justify-content: space-between;
+}
+.our-history {
+  height: 700px;
+}
+.year-container {
+  height: 200px;
+}
+.year {
+  transform: rotate(270deg);
+  height: max-content;
+  margin-right: 5px;
+  color: var(--darkgreen);
+  font-size: 44px;
+  font-weight: 700;
+  opacity: 0.4;
+}
+.history-line {
+  width: 200px;
+}
+.left-sample {
+  align-items: flex-start;
+}
+.solo-sample {
+  align-items: center;
+}
+.sample-img-text {
+  flex-direction: column;
+  align-items: center;
+}
+.history-line {
+  height: 2px;
+  width: 100%;;
+  background: var(--brown);
+}
+.right-samples {
+  height: 450px;
+  width: 100%;
+  /* width: 500px; */
+  /* background-image: url("pics/about-us4.png"); */
+  background-size: 600px 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sample2,.sample4 {
+  border-left: 2px solid var(--brown);
+  border-right: 2px solid var(--brown);
+}
+.sample2 {
+  margin-left: 35px;
+  padding: 0 30px 30px 0;
+}
+.sample4 {
+  margin-left: 75px;
+}
+.sample4,.sample5 {
+  padding: 30px 30px 0 0;
+}
+.sample-img-text img {
+  margin-bottom: 15px;
+}
+.sample-img-text p {
+  color: var(--lightgreen);
+}
+.about-us2-mobile {
+  display: none;
+}

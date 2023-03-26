@@ -1,0 +1,37 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/reset.css";
+@import "components/root.css";
+@import "components/common.css";
+@import "media/products2.css";
+.products-info-pic {
+  display: flex;
+}
+.header-container {
+  height: 370px;
+}
+header {
+  height: 350px;
+}
+.main {
+  padding: 10px 30px;
+  background: beige;
+}
+.products-info-pic img {
+  margin: 0 auto;
+}
+.products-info h5 {
+  color: var(--brown);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.products-info p {
+  width: 60%;
+  color: var(--lightgreen);
+  font-weight: 400;
+  line-height: 24px;
+}
+.products-info {
+  margin-right: 10px;
+}

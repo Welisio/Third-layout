@@ -1,0 +1,5 @@
+@media only screen and (max-width: 480px) {
+  .product9,.product10,.product11,.product12,.product13,.product14,.product15,.product16 {
+    display: none;
+  }
+}

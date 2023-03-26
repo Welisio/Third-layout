@@ -1,0 +1,24 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .services-info-pic {
+    flex-wrap: wrap;
+  }
+  .services-info p {
+    margin-bottom: 15px;
+  }
+  .services-info-pic img {
+    height: 200px !important;
+  }
+}
+/* Tablets */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .services-info-pic {
+    flex-wrap: wrap;
+  }
+  .services-info p {
+    margin-bottom: 15px;
+  }
+  .services-info-pic img {
+    height: 300px !important;
+  }
+}

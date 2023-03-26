@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px) {
+  .contact-info {
+    margin-left: 0px !important;
+    padding-left: 30px !important;
+  }
+  .contact-img img {
+    height: 150px !important;
+  }
+  .main {
+    padding: 0px !important;
+    background: beige;
+  }
+  .contact-us-container {
+    padding: 0px !important;
+  }
+  .page-nav-mobile {
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 480px) {
+
+}

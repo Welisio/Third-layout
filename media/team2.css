@@ -1,0 +1,32 @@
+@media only screen and (max-width: 480px) {
+  .team-info-pic {
+    flex-wrap: wrap;
+  }
+  .team-info p {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .team-info-pic img {
+    height: 230px !important;
+    /* margin-bottom: 30px; */
+  }
+  .team-info-pic {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .team-info-pic {
+    flex-wrap: wrap;
+  }
+  .team-info p {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .team-info-pic img {
+    height: 230px !important;
+    /* margin-bottom: 30px; */
+  }
+  .team-info-pic {
+    margin-bottom: 30px;
+  }
+}

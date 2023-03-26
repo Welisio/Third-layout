@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px) {
+  .products-info-pic {
+    flex-wrap: wrap;
+  }
+  .products-info p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .products-info-pic img {
+    height: 250px !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .products-info-pic {
+    flex-wrap: wrap;
+  }
+  .products-info p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .products-info-pic img {
+    height: 250px !important;
+  }
+}
