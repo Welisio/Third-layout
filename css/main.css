@@ -172,7 +172,7 @@ header {
   height: 200px;
   width: 200px;
   align-items: flex-end;
-  background-image: url("pics/Rectangle\ 2.png");
+  background-image: url("../pics/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 200px 200px;
@@ -296,7 +296,7 @@ header {
 .geo-img {
   height: 270px;
   width: 600px;
-  background-image: url("pics/map1.PNG");
+  background-image: url("../pics/map1.PNG");
 }
 /* SPACE */
 .space {

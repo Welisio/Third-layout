@@ -23,7 +23,7 @@
 .geo-img {
   height: 270px;
   width: 600px;
-  background-image: url("pics/map1.PNG");
+  background-image: url("../pics/map1.PNG");
 }
 .adress,.number,.mail,.time {
   margin-bottom: 30px;

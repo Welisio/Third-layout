@@ -3,10 +3,12 @@
 @import "components/reset.css";
 @import "components/root.css";
 @import "components/common.css";
-.member-blocks,.member-block,.member-info {
+@import "media/team.css";
+.member-block,.member-info {
   display: flex;
 }
 .member-blocks {
+  display: grid;
   flex-wrap: wrap;
   margin-bottom: 15px;
 }
@@ -21,7 +23,8 @@ header {
   background: beige;
 }
 .member-block {
-  width: 600px;
+  width: 400px;
+  justify-content: space-between;
   background: var(--darkgreen);
   border-radius: 25px;
   margin-bottom: 10px;

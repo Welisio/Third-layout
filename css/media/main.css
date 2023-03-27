@@ -150,7 +150,7 @@
   }
   .about-us-info-pic {
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
   }
   .about-us-info-pic > img {
     height: 300px !important;

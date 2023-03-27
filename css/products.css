@@ -4,8 +4,11 @@
 @import "components/root.css";
 @import "media/products.css";
 @import "components/common.css";
-.product-blocks,.product-name {
+.product-name {
   display: flex;
+}
+.product-blocks {
+  display: grid;
 }
 .header-container {
   height: 370px;
@@ -17,11 +20,8 @@ header {
   padding: 10px 30px;
   background: beige;
 }
-.product-blocks {
-  flex-wrap: wrap;
-}
 .product-block {
-  width: 400px;
+  width: 200px;
   border: 2px solid var(--brown);
   padding: 10px 15px;
   margin: 0 0 10px 10px;
