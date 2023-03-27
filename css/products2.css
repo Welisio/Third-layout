@@ -4,6 +4,7 @@
 @import "components/root.css";
 @import "components/common.css";
 @import "media/products2.css";
+@import "components/font.css";
 .products-info-pic {
   display: flex;
 }

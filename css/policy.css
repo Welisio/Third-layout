@@ -3,6 +3,7 @@
 @import "components/reset.css";
 @import "components/root.css";
 @import "components/common.css";
+@import "components/font.css";
 .policy {
   display: flex;
 }

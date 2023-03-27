@@ -4,6 +4,7 @@
 @import "components/root.css";
 @import "components/common.css";
 @import "media/team2.css";
+@import "components/font.css";
 .team-info-pic {
   display: flex;
 }

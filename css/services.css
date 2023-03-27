@@ -4,7 +4,7 @@
 @import "components/root.css";
 @import "media/services.css";
 @import "components/common.css";
-
+@import "components/font.css";
 .services {
   display: grid;
 }

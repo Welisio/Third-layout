@@ -5,6 +5,7 @@
 @import "media/services.css";
 @import "media/services2.css";
 @import "components/common.css";
+@import "components/font.css";
 .header-container {
   height: 370px;
 }

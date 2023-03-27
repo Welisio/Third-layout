@@ -2,6 +2,7 @@
 @import "components/footer.css";
 @import "components/reset.css";
 @import "components/root.css";
+@import "components/font.css";
 .header-phrase-pic,.header-pic,.circle,.header-phrase,.circle,.learn-watch,
 .about-us-info-pic,.about-us-info,.about-us-text-btns,.about-us-btns,.services,.service,.service-text,.services-btns,
 .arrows,.products-container,.products-title-btn,.product-blocks,.product-name,.our-team-container,.member-blocks,.member-block,.member-info,

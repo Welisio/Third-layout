@@ -4,6 +4,7 @@
 @import "components/root.css";
 @import "components/common.css";
 @import "media/contactus.css";
+@import "components/font.css";
 .contact-us-container,.contact-img,.adress,.number,.mail,.time {
   display: flex
 }

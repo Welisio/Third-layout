@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Sofia";
+  src: url("../../Sofia/Sofia\ Pro\ Regular\ Az.otf")
+}
+* {
+  font-family: "Sofia";
+}

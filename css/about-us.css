@@ -2,6 +2,7 @@
 @import "components/footer.css";
 @import "components/reset.css";
 @import "components/root.css";
+@import "components/font.css";
 .about-us,.who-we-are,.what-we-do,.history-samples,.left-sample,.solo-sample,.sample-img-text,.samples-top,
 .samples-bottom {
   display: flex;
