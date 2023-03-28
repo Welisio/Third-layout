@@ -119,6 +119,7 @@ header {
 }
 .about-us-info-pic {
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 50px 30px;
 }
 .about-us-info-pic img {

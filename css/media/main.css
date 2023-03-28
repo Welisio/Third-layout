@@ -41,10 +41,6 @@
   .watch-video a {
     font-size: 28px;
   }
-  .about-us-info-pic {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .about-us-info-pic > img {
     height: 300px !important;
   }
@@ -160,7 +156,7 @@
     margin-bottom: 30px;
   }
   .about-us-text-btns {
-    width: 300px !important;
+    width: 400px !important;
     margin-left: 0px !important;
     margin-bottom: 30px;
   }
@@ -190,12 +186,20 @@
   .products-container > a {
     display: block;
     text-decoration: underline;
+    font-size: 24px;
+    padding-left: 10px;
   }
   .arrows,.member2,.member3 {
     display: none;
   }
   .contact-us-container {
     height: 600px !important;
+  }
+  .products-title-btn a {
+    display: none;
+  }
+  .our-team-container a,.product-blocks > a {
+    font-size: 24px;
   }
 }
 /* Desk */
