@@ -41,7 +41,7 @@ header {
   height: 200px;
   width: 200px;
   align-items: flex-end;
-  background-image: url("../pics/Rectangle\ 2.png");
+  /* background-image: url("../pics/Service1.png"); */
   background-repeat: no-repeat;
   background-position: right center;
   margin-bottom: 15px;
@@ -51,7 +51,7 @@ header {
 .service:not(:last-child) {
   margin-right: auto !important;
 }
-.service13 {
+/* .service13 {
   background-image: url("../pics/Service2.png") !important;
 }
 .service14 {
@@ -65,7 +65,7 @@ header {
 }
 .service17 {
   background-image: url("../pics/Service8.png") !important;
-}
+} */
 .main {
   padding: 10px 30px;
   background: beige;
